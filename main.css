@@ -1,0 +1,102 @@
+
+
+header
+{
+}
+
+h1
+{
+	font-size: 30px;
+	font-family: Arial, Helvertica, sans-serif;
+	text-align: center;
+	color: #0000FF;
+}
+
+h3
+{
+	text-align: center;
+	color: #0000FF;
+}
+
+
+body
+{
+	width: 890px;
+	margin: 0 auto;
+	Font: 10pt/1.5em Helvetica, "Helvetica neue", Arial,
+	sans-serif;
+	background: #F0F8FF;
+}
+
+.WhyUseUs {
+	background-color: #ffc;
+}
+
+nav {
+	display: block;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #191970;
+	border-radius: 100px;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: 0xffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hovernot(.active) {
+	background-color: #D3D3D3;
+}
+.active {
+	background-color: #4CAF50;
+}
+
+aside {
+	float: top;
+	width: 800px;
+	min-height: 200px;
+	padding-right: 20px;
+	padding-top: 20px;
+
+	text-align: justify;
+}
+
+section {
+	float: bottom;
+	width: 800px;
+	min-height: 200px;
+	padding-right: 20px;
+	border-top: 5px groove #b2a497; 
+	text-align: justify;
+}
+
+
+#history-image
+{
+	float: left;
+	margin: 10px;
+}
+
+footer {
+	clear:both;
+	width: 800px;
+	height: 50px;
+	text-align: center;
+}
+
+#footer-image {
+	height: 50px;
+	width: 50px;
+}
+

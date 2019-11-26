@@ -1,0 +1,17 @@
+
+#main {
+	border: 3px solid rgb(0,0,0);
+    	background-color: rgb(173,216,230);
+	width: 1200px;
+ 	margin-left: auto ;
+  	margin-right: auto ;
+  			
+ 	text-align: center;
+   	 font-size:30;
+    	color:rgb(128,0,0);
+}
+
+h1 {
+    	color: rgb(250,50,50);
+	font-size: 80px;
+}

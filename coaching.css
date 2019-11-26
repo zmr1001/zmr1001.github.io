@@ -1,0 +1,133 @@
+
+/* This is the formating for the header pane */
+header{
+}
+
+h1{
+	font-size: 30px; 
+	font-family: Verdana, Helvertica, serif;
+	text-align: center;
+	color: #800000;
+}
+
+h3{
+	text-align: center;
+	color: #800000;
+}
+
+/* This is the formating for the body */
+body{
+	width: 840px;
+	margin: 0 auto;
+	Font: 10pt/1.5em Verdana, "Helvetica neue", serif;
+	sans-serif;
+	background: url(images/background.jpg);
+}
+
+/* This is the formating for the naigation pane.  It is basically a fixed list with some hover/opacity capabilties added */
+nav {
+	display: block;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #800000;
+	border-radius: 100px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* This section highlights the item in the list when the user hovers over an item and diminishes the intensity of the other items */
+ul > li {
+	opacity: 1.0;
+}
+
+ul:hover > li:not(:hover) {
+	opacity: 0.5;
+}
+
+
+/* This is the formating for the aside pane */
+aside {
+	float: top;
+	width: 840px;
+	min-height: 200px;
+	padding-right: 20px;
+	padding-top: 20px;
+	text-align: justify;
+}
+
+/* This is the formating for the section pane */
+/* section {
+	float: bottom;
+	width: 840px;
+	min-height: 200px;
+	padding-right: 20px;
+	border-top: 5px groove #800000; 
+	text-align: justify;
+} */
+
+#formcheck-image {
+	float: left;
+	margin: 10px;
+	height: 150px;
+	width: 200px;
+}
+
+#coaching-image {
+	float: left;
+	margin: 10px;
+	height: 150px;
+	width: 200px;
+}
+
+
+
+
+
+p {
+	margin-left: 0px;
+	overflow: auto;
+	display: block;
+	text-align: center;
+}
+
+hr.style1 {
+	background-color: #fff;
+	border-top: 2px dahsed #8c8b8b;
+	text-align: center;
+}
+
+/* This is the formating for the footer */
+footer {
+	clear:both;
+	width: 840px;
+	height: 40px;
+	font-family: Verdana, Helvertica, serif;
+	text-align: center;
+}
+
+#footer-image {
+	height: 40px;
+	width: 40px;
+}
+#footer-image2 {
+	height: 40px;
+	width: 40px;
+}
+
+
+
